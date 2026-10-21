@@ -1,0 +1,67 @@
+/* --- පොදු මෝස්තර (General Styles) --- */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body { background-color: #f4f7f6; }
+
+/* --- ADMIN SIDE THEME (Dark Professional) --- */
+.admin-body { background-color: #e9ecef; }
+.admin-navbar { 
+    background-color: #1a1a1a; 
+    padding: 15px 50px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    color: white;
+}
+.admin-nav-links a { 
+    color: #bdc3c7; 
+    text-decoration: none; 
+    margin-left: 20px; 
+    font-weight: 500;
+    transition: 0.3s;
+}
+.admin-nav-links a:hover { color: #f39c12; }
+
+/* Admin Cards & Tables */
+.admin-card { 
+    background: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    margin-bottom: 20px;
+}
+.admin-btn { 
+    background: #1a1a1a; color: white; border: none; 
+    padding: 10px 20px; border-radius: 5px; cursor: pointer; 
+}
+.admin-btn:hover { background: #f39c12; }
+
+/* --- CUSTOMER SIDE THEME (Mobile Friendly / Light) --- */
+.customer-body { 
+    max-width: 500px; 
+    margin: 0 auto; 
+    background: white; 
+    min-height: 100vh; 
+    box-shadow: 0 0 15px rgba(0,0,0,0.1); 
+}
+.customer-navbar { background: #2c3e50; color: white; padding: 15px; text-align: center; position: fixed; top: 0; width: 100%; z-index: 1001; }
+.customer-menu-item {
+    display: block;
+    padding: 15px;
+    margin: 10px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid #dee2e6;
+}
+.customer-btn {
+    width: 100%;
+    padding: 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
